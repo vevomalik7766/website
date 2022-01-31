@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  color: inherit;
+  text-decoration: inherit;
+  text-transform: uppercase;
+  outline: none;
+  font-weight: bold;
+}
+
+.navbar-item:hover {
+  color: brown;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-item-btn {
+  display: flex;
+  height: 40px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  background-color: transparent;
+  border-radius: 14px;
+  border-color: black;
+  color: inherit;
+  text-decoration: inherit;
+  text-transform: uppercase;
+  font-weight: bold;
+}
