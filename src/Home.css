@@ -1,0 +1,128 @@
+.homeTop {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-item {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+  margin-left: 30px;
+  color: inherit;
+  text-decoration: inherit;
+  text-align: left;
+  font-weight: bold;
+}
+
+.top {
+  text-align: left;
+  font-size: 40px;
+  display: block;
+  flex-direction: column;
+}
+
+.btn1 {
+  width: 50%;
+  background-color: rgb(2, 55, 73);
+  border-radius: 24px;
+  border: 10px;
+  border-color: crimson;
+  color: white;
+  height: 40px;
+}
+
+.content {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  color: black;
+  width: 80%;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.dms {
+  text-align: left;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.tbl1 {
+  background-color: #3a3a3a;
+  border-radius: 24px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #44a5c3;
+  width: 60%;
+  height: 250px;
+  padding: 2%;
+}
+
+.features {
+  background-color: #e8e8e8;
+  display: flex;
+  color: #20a3f7;
+  flex-direction: column;
+  padding: 2%;
+}
+
+.featuresIn {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10%;
+}
+
+.card {
+  background-color: whitesmoke;
+  border-radius: 14px;
+  width: 250px;
+  height: 200px;
+  font-family: serif;
+  font-size: 15px;
+  text-align: center;
+  color: black;
+  box-shadow: 5px 4px 10px #505050;
+}
+
+.card:hover {
+  box-shadow: 5px 4px 10px #505050;
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+
+.btn,
+.btn2 {
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 0px;
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 50px;
+  border: transparent;
+  background: linear-gradient(-45deg, #7400d3, #75b38c, #83b8fd, #04316d);
+  background-size: 500%;
+  animation: anime 15s linear infinite;
+  box-shadow: 0.5px 0.5px 10px #505050;
+}
+.btn2 {
+  position: absolute;
+  margin-top: -70px;
+  z-index: -1;
+  filter: blur(30px);
+  opacity: 0.8;
+}
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
